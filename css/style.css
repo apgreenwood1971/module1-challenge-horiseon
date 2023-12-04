@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Setting the background colour of body. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styling the Header. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,17 +17,18 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* Styling the seo within h1 in header. */
+.header h1 .seo {
     display: inline-block;
-    font-size: 48px;
-    color: #ffffff;
+    color: #d9dcd6;
 }
 
-.header div {
+/* Styling the navigation bar in header. */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Calibri';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -33,22 +36,30 @@ body {
     list-style-type: none;
 }
 
-.header div ul li {
-    display: inline;
+/* Displaying list items in navigation bar inline. */
+.header nav ul li {
+    display: inline-flex;
     margin-left: 25px;
 }
 
+/* Styling all anchor tags. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Setting font size for all paragraphs. */
 p {
     font-size: 16px;
 }
 
+/* Styling hero class, and setting background image. */
 .hero {
+    height: 800px;
+    width: 100%;
     margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
     background-position: center;
 }
 
@@ -62,16 +73,19 @@ p {
     margin-left: 25px;
 }
 
+/* Styling content class. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Styling search-engine-optimization, online-reputation-management, and social-media-marketing classes. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Calibri';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -80,7 +94,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Calibri';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -89,11 +103,12 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Calibri';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* Setting max height for images in search-engine-optimization, online-reputation-management, and social-media-marketing classes. */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -106,6 +121,7 @@ p {
     max-height: 200px;
 }
 
+/* Styling h2 in search-engine-optimization, online-reputation-management, and social-media-marketing classes. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -120,6 +136,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Styling benefits class. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -127,10 +145,11 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Calibri';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/* Styling benefit-lead, benefit-brand, and benefit-cost classes. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -146,6 +165,7 @@ p {
     color: #ffffff;
 }
 
+/* Styling h3 in benefit-lead, benefit-brand, and benefit-cost classes. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -161,6 +181,7 @@ p {
     text-align: center;
 }
 
+/* Styling img in benefit-lead, benefit-brand, and benefit-cost classes. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -177,4 +198,16 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+/* Styling footer. */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Styling the h2 in footer. */
+.footer h2 {
+    font-size: 20px;
 }
