@@ -17,6 +17,11 @@ body {
     color: #ffffff;
 }
 
+.header h1 {
+display: inline-block;
+font-size: 48px;    
+}
+
 /* Styling the seo within h1 in header. */
 .header h1 .seo {
     display: inline-block;
